@@ -1,7 +1,7 @@
 {
     "name": "blogg-app",
     "version": "1.0.0",
-    "main": "JSbackend/backend/server.js",
+    "main": "/Users/dominikaberg/Desktop/JSbackend/backend/server.js",
     "scripts": {
         "start": "node JSbackend/backend/server.js",
         "install:backend": "cd JSbackend/backend && npm install",
