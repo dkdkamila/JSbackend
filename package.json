@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "/Users/dominikaberg/Desktop/JSbackend/backend/server.js",
     "scripts": {
-        "start": "node ./JSbackend/backend/server.js",
+        "start": "node /Users/dominikaberg/Desktop/JSbackend/backend/server.js",
         "install:backend": "cd JSbackend/backend && npm install",
         "start:backend": "cd JSbackend/backend && npm start",
         "dev": "concurrently \"npm run start:backend\""
