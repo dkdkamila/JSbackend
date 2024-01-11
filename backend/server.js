@@ -1,8 +1,8 @@
 const express = require('express');
 const session = require('express-session');
 const mongoose = require('mongoose');
-const postsRouter = require('.posts.js');
-const authRouter = require('.auth.js');
+const postsRouter = require('./routes/posts.js');
+const authRouter = require('./routes/auth.js');
 const app = express();
 
 // Anslut till  MongoDB-databas
