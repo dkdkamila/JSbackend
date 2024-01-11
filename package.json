@@ -2,8 +2,8 @@
     "name": "blogg-app",
     "version": "1.0.0",
     "scripts": {
-        "start:backend": "node JSbackend/backend/server.js",
-        "install:backend": "git clone https://github.com/dkdkamila/JSbackend JSbackend/backend && cd JSbackend/backend && npm install",
+        "start:backend": "node /backend/server.js",
+        "install:backend": "git clone https://github.com/dkdkamila/JSbackend /backend && cd backend && npm install",
         "dev": "concurrently \"npm run start:backend\""
     },
     "dependencies": {
