@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
@@ -10,7 +11,7 @@ app.use(cors());
 const port = process.env.PORT || 3001;
 
 // Anslut till MongoDB 
-mongoose.connect('mongodb+srv://Cluster59057:Sl1pRkVTeWh5@cluster59057.apgxdlo.mongodb.net/JavaProjekt', {
+mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
