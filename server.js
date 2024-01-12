@@ -87,7 +87,7 @@ app.delete('/api/posts/:id', async (req, res) => {
     const { id } = req.params;
 
     try {
-        const deletedPost = await BlogPost.findByIdAndRemove(id);
+        const deletedPost = await BlogPost.findByIdAndDelete(id);
         res.status(204).json(deletedPost);
     } catch (error) {
         console.error('Error deleting post', error.message);
